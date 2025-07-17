@@ -5,5 +5,5 @@ income = float(input("what is your income?: "))
 print('The information your entered: ')
 print("Name: ", name)
 print("Age: ", age) 
-print("Income: ", format(income,'12,.2f'))
+print("Income: ", format(income,'1.2f'))
 
