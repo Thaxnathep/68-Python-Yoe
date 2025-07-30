@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+/*style the body*/
+body {
+    font-family: TH Sarabun;
+    margin: 0;
+}
+
+
+.header{
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(73, 100, 248);
+    color: whitesmoke;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: rgb(203, 129, 212);
+}
+
+
+.navbar a{
+    color: aquamarine;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.navbar a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.side{
+    flex: 30%;
+    background-color: rgb(253, 232, 232);
+    padding: 20px;
+}
+
+
+.main{
+    flex: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+
+.fackimg{
+    background-color: rgb(154, 245, 170);
+    width: 100%;
+    padding: 20px;
+}
+
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(252, 195, 111);
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
