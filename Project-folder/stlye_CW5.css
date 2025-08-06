@@ -1,0 +1,15 @@
+body {
+    font-family: TH Sarabun;
+    margin: 0;
+}
+
+.header{
+    padding: 40px;
+    text-align: center;
+    color: black
+}
+
+strong, u {
+  font-size: 1.15em;
+  font-weight: bold;
+}
