@@ -13,7 +13,7 @@ print(fruits)
 fruits.discard("grape")
 print(fruits)
 
-remove_item = fruits.pop
+remove_item = fruits.pop()
 print(remove_item)
 print(fruits)
 

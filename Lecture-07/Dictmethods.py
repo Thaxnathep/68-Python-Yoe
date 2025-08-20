@@ -6,6 +6,11 @@ heroesdivt["Iron Man"] = "888-2222"
 print(heroesdivt.get("Halk", "key not found"))
 print(heroesdivt.get("Hulk", "key not found"))
 
-for key, value in phonebook.items():
+for key, value in phonebook.items():  
     print(key, value)
-    
+# ใช้ .items() เพื่อวนลูปทั้ง key และ value ของ dictionary
+# Output:
+# Thanathep 777-1111
+# Yoey 777-2222
+# Tonor 777-3333
+# Pluto 777-4444

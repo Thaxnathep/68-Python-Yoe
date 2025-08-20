@@ -1,14 +1,20 @@
-set1 = {1, 2, 3, 4}
-set2 = {3, 4, 5, 6}
+# สร้าง set ตัวอย่าง
+setA = {1, 2, 3, 4}
+setB = {3, 4, 5, 6}
 
-union_set = set1 | set2
-print("union: ", union_set)
+# -------------------
+# Union (รวมสมาชิกทั้งสอง set)
+union_set = setA | setB
+print("Union:", union_set)  # {1, 2, 3, 4, 5, 6}
 
-intersection_set = set1 & set2
-print(intersection_set)
+# Intersection (สมาชิกที่อยู่ทั้งสอง set)
+intersection_set = setA & setB
+print("Intersection:", intersection_set)  # {3, 4}
 
-difference_set = set1 - set2
-print(difference_set)
+# Difference (สมาชิกใน setA แต่ไม่อยู่ setB)
+difference_set = setA - setB
+print("Difference (A-B):", difference_set)  # {1, 2}
 
-symmetric_difference_set = set1 ^ set2
-print(symmetric_difference_set)
+# Symmetric Difference (สมาชิกที่อยู่ set ใด set หนึ่ง แต่ไม่อยู่ทั้งสอง)
+symmetric_difference_set = setA ^ setB
+print("Symmetric Difference:", symmetric_difference_set)  # {1, 2, 5, 6}
